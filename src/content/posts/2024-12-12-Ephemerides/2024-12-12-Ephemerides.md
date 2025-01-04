@@ -4,7 +4,8 @@ published: 2024-11-10
 description: Satellite_Ephemerides
 tags: [Jupiter]
 category: Work
-draft: true
+image: "./image1.png"
+draft: false
 ---
 
 # 
