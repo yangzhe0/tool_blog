@@ -6,77 +6,80 @@ import type {
 } from './types/config'
 import { LinkPreset } from './types/config'
 
+// 网站整体配置
 export const siteConfig: SiteConfig = {
-  title: 'Fuwari',
-  subtitle: 'Demo Site',
-  lang: 'en',         // 'en', 'zh_CN', 'zh_TW', 'ja', 'ko', 'es', 'th'
+  title: 'Blog', // 网站标题
+  subtitle: 'yangzhe', // 网站副标题
+  lang: 'zh_CN', // 网站语言，可选值：'en', 'zh_CN', 'zh_TW', 'ja', 'ko', 'es', 'th'
   themeColor: {
-    hue: 250,         // Default hue for the theme color, from 0 to 360. e.g. red: 0, teal: 200, cyan: 250, pink: 345
-    fixed: false,     // Hide the theme color picker for visitors
+    hue: 250, // 默认主题颜色的色相，范围从 0 到 360。示例：红色: 0, 青色: 250, 粉色: 345
+    fixed: false, // 是否隐藏主题颜色选择器（true: 隐藏, false: 显示）
   },
   banner: {
-    enable: false,
-    src: 'assets/images/demo-banner.png',   // Relative to the /src directory. Relative to the /public directory if it starts with '/'
-    position: 'center',      // Equivalent to object-position, only supports 'top', 'center', 'bottom'. 'center' by default
+    enable: true, // 是否启用横幅（true: 启用, false: 禁用）
+    src: 'assets/images/demo-banner.png', // 横幅图片路径，基于 /src 目录，若以 '/' 开头则基于 /public 目录
+    position: 'center', // 图片位置，相当于 object-position，支持 'top', 'center', 'bottom'，默认 'center'
     credit: {
-      enable: false,         // Display the credit text of the banner image
-      text: '',              // Credit text to be displayed
-      url: ''                // (Optional) URL link to the original artwork or artist's page
+      enable: false, // 是否显示横幅图片的来源信息
+      text: '', // 图片来源文字描述
+      url: '', // 图片来源链接地址（可选）
     }
   },
   toc: {
-    enable: true,           // Display the table of contents on the right side of the post
-    depth: 2                // Maximum heading depth to show in the table, from 1 to 3
+    enable: true, // 是否显示文章目录（true: 显示, false: 隐藏）
+    depth: 3, // 目录显示的标题深度，范围 1-3
   },
-  favicon: [    // Leave this array empty to use the default favicon
+  favicon: [
+    // 自定义网站图标（favicon）。留空则使用默认图标
     // {
-    //   src: '/favicon/icon.png',    // Path of the favicon, relative to the /public directory
-    //   theme: 'light',              // (Optional) Either 'light' or 'dark', set only if you have different favicons for light and dark mode
-    //   sizes: '32x32',              // (Optional) Size of the favicon, set only if you have favicons of different sizes
+    //   src: '/favicon/icon.png', // 图标路径，基于 /public 目录
+    //   theme: 'light', // 图标对应的主题（可选: 'light' 或 'dark'）
+    //   sizes: '32x32', // 图标尺寸（可选）
     // }
   ]
 }
 
+// 导航栏配置
 export const navBarConfig: NavBarConfig = {
   links: [
-    LinkPreset.Home,
-    LinkPreset.Archive,
-    LinkPreset.About,
+    LinkPreset.Home, // 内置首页链接
+    LinkPreset.Archive, // 内置归档链接
+    LinkPreset.About, // 内置关于页面链接
     {
-      name: 'GitHub',
-      url: 'https://github.com/saicaca/fuwari',     // Internal links should not include the base path, as it is automatically added
-      external: true,                               // Show an external link icon and will open in a new tab
+      name: 'GitHub', // 链接名称
+      url: 'https://github.com/yangzhe0', // 链接地址，内部链接不包含基础路径（自动添加）
+      external: true, // 是否为外部链接（true: 外部链接并在新标签页打开）
     },
   ],
 }
 
+// 个人资料配置
 export const profileConfig: ProfileConfig = {
-  avatar: 'assets/images/demo-avatar.png',  // Relative to the /src directory. Relative to the /public directory if it starts with '/'
-  name: 'Lorem Ipsum',
-  bio: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+  avatar: 'assets/images/demo-avatar.png', // 头像路径，基于 /src 目录，若以 '/' 开头则基于 /public 目录
+  name: 'Jones Ray', // 个人名称
+  bio: '站在巨人的肩膀上总会看的更远', // 个人简介
   links: [
     {
-      name: 'Twitter',
-      icon: 'fa6-brands:twitter',       // Visit https://icones.js.org/ for icon codes
-                                        // You will need to install the corresponding icon set if it's not already included
-                                        // `pnpm add @iconify-json/<icon-set-name>`
-      url: 'https://twitter.com',
+      name: 'BiliBili', // 链接名称
+      icon: 'fa6-brands:bilibili', // 图标代码，参见 https://icones.js.org/
+      url: 'https://space.bilibili.com/290208229', // 链接地址
     },
     {
-      name: 'Steam',
-      icon: 'fa6-brands:steam',
-      url: 'https://store.steampowered.com',
+      name: 'Weibo',
+      icon: 'fa6-brands:weibo',
+      url: 'https://www.weibo.com/7527059128',
     },
     {
       name: 'GitHub',
       icon: 'fa6-brands:github',
-      url: 'https://github.com/saicaca/fuwari',
+      url: 'https://github.com/yangzhe0',
     },
   ],
 }
 
+// 版权配置
 export const licenseConfig: LicenseConfig = {
-  enable: true,
-  name: 'CC BY-NC-SA 4.0',
-  url: 'https://creativecommons.org/licenses/by-nc-sa/4.0/',
+  enable: false, // 是否启用版权信息
+  name: 'CC BY-NC-SA 4.0', // 版权协议名称
+  url: 'https://creativecommons.org/licenses/by-nc-sa/4.0/', // 版权协议链接
 }
