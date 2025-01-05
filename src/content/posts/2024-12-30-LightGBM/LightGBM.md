@@ -3,8 +3,8 @@ title: LightGBM
 published: 2025-01-05
 description: 'Design and Implementation of Drifting Trajectory Prediction Based on LightGBM'
 image: ''
-tags: [LightGBM, ML]
-category: 'Study'
+tags: [LightGBM]
+category: Code
 draft: false 
 lang: ''
 ---
