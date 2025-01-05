@@ -126,10 +126,27 @@
     .copy-btn.success .success-icon {
         @apply opacity-100
     }
+
+    .centered-content img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .centered-content table, .centered-content th, .centered-content td {
+        text-align: center;
+        vertical-align: middle;
+    }
 }
 
 .custom-md img, #post-cover img {
     @apply cursor-zoom-in
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 ::selection {
