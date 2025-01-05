@@ -26,8 +26,3 @@ This is the demo site for [Fuwari](https://github.com/yangzhe0/ancoj).
 2. **A new catalogue of observations of Jupiter**：正在进行中🆒
 
 代码是无限的，而bug是有限的，致力于用无限的代码去消灭有限的bug吧！🚀
-
-> ### Sources of images used in this site
-> - [Unsplash](https://unsplash.com/)
-> - [星と少女](https://www.pixiv.net/artworks/108916539) by [Stella](https://www.pixiv.net/users/93273965)
-> - [Rabbit - v1.4 Showcase](https://civitai.com/posts/586908) by [Rabbit_YourMajesty](https://civitai.com/user/Rabbit_YourMajesty)

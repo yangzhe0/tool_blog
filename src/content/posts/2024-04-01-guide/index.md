@@ -58,8 +58,6 @@ src/content/posts/
 
 > README 版本：`2024-09-10`
 
-![Preview Image](https://raw.githubusercontent.com/saicaca/resource/main/fuwari/home.png)
-
 ## ✨ 功能特性
 
 - [x] 基于 Astro 和 Tailwind CSS 开发

@@ -13,7 +13,7 @@ export const siteConfig: SiteConfig = {
   lang: 'zh_CN', // 网站语言，可选值：'en', 'zh_CN', 'zh_TW', 'ja', 'ko', 'es', 'th'
   themeColor: {
     hue: 250, // 默认主题颜色的色相，范围从 0 到 360。示例：红色: 0, 青色: 250, 粉色: 345
-    fixed: false, // 是否隐藏主题颜色选择器（true: 隐藏, false: 显示）
+    fixed: true, // 是否隐藏主题颜色选择器（true: 隐藏, false: 显示）
   },
   banner: {
     enable: true, // 是否启用横幅（true: 启用, false: 禁用）
