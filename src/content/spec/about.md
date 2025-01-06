@@ -1,5 +1,5 @@
 # About
-This is the demo site for [Fuwari](https://github.com/yangzhe0/ancoj).
+This is the demo site for [BIog-astro](https://github.com/yangzhe0/ancoj).
 
 ::github{repo="yangzhe0/ancoj"}
 
