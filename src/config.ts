@@ -9,7 +9,7 @@ import { LinkPreset } from './types/config'
 // 网站整体配置
 export const siteConfig: SiteConfig = {
   title: 'Blog', // 网站标题
-  subtitle: 'yangzhe', // 网站副标题
+  subtitle: 'Jones Ray', // 网站副标题
   lang: 'zh_CN', // 网站语言，可选值：'en', 'zh_CN', 'zh_TW', 'ja', 'ko', 'es', 'th'
   themeColor: {
     hue: 250, // 默认主题颜色的色相，范围从 0 到 360。示例：红色: 0, 青色: 250, 粉色: 345
@@ -17,7 +17,7 @@ export const siteConfig: SiteConfig = {
   },
   banner: {
     enable: true, // 是否启用横幅（true: 启用, false: 禁用）
-    src: 'assets/images/demo-banner.png', // 横幅图片路径，基于 /src 目录，若以 '/' 开头则基于 /public 目录
+    src: 'assets/images/banner.png', // 横幅图片路径，基于 /src 目录，若以 '/' 开头则基于 /public 目录
     position: 'center', // 图片位置，相当于 object-position，支持 'top', 'center', 'bottom'，默认 'center'
     credit: {
       enable: false, // 是否显示横幅图片的来源信息
@@ -55,7 +55,7 @@ export const navBarConfig: NavBarConfig = {
 
 // 个人资料配置
 export const profileConfig: ProfileConfig = {
-  avatar: 'assets/images/demo-avatar.png', // 头像路径，基于 /src 目录，若以 '/' 开头则基于 /public 目录
+  avatar: 'assets/images/avatar.png', // 头像路径，基于 /src 目录，若以 '/' 开头则基于 /public 目录
   name: 'Jones Ray', // 个人名称
   bio: '站在巨人的肩膀上总会看的更远', // 个人简介
   links: [
