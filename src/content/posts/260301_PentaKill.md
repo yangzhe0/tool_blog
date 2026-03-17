@@ -1,6 +1,6 @@
 ---
 title: 人生第一次五杀
-published: 2026-03-15
+published: 2026-03-01
 description: '打了这么久终于来了，记录一下这个高光时刻'
 image: ./image/260315_01.jpg
 tags: [LOL, Diary]

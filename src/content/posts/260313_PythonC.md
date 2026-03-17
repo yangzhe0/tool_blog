@@ -1,6 +1,6 @@
 ---
 title: 'Python 与 C 混编：当下还有必要吗？'
-published: 2026-03-16
+published: 2026-03-13
 description: '从AI推理到嵌入式，Python慢在哪、C补在哪，ctypes/Cython/CPython扩展/pybind11四种混编方式全对比。'
 image: ''
 tags: [Python, C]

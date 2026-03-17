@@ -1,6 +1,6 @@
 ---
 title: '研究生？不，是牛马'
-published: 2026-03-16
+published: 2026-03-09
 description: '那么多人想读研究生，到底是谁在读啊？'
 image: ''
 tags: [Life, Graduate]
