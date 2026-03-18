@@ -2,7 +2,7 @@
 title: 'AI 名词祛魅'
 published: 2026-03-05
 description: '用"打工人小L"的比喻，一文拆穿 Prompt、RAG、Agent、MCP、Skill 等 AI 术语的真实面目。'
-image: './image/260316_01.png'
+image: './image/260305_01.png'
 tags: [AI, Agent]
 category: Notes
 draft: false
