@@ -2,7 +2,7 @@
 title: 'Python 与 C 混编：当下还有必要吗？'
 published: 2026-03-13
 description: '从AI推理到嵌入式，Python慢在哪、C补在哪，ctypes/Cython/CPython扩展/pybind11四种混编方式全对比。'
-image: ''
+image: './image/260313_01.jpg'
 tags: [Python, C]
 category: Notes
 draft: false
@@ -389,3 +389,8 @@ print(c.count)   # 1
 不用非选一个。实际项目里，ctypes 调系统库、Cython 加速业务逻辑、pybind11 封装 C++ 引擎，三者同时出现在一个代码库里很正常。
 
 Python 是入口，C/C++ 是引擎——知道怎么打开引擎盖，你才算真的会开这辆车。
+
+
+![python c programming code](https://images.unsplash.com/photo-1526379095098-d400fd0bf935?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4OTk5MTN8MHwxfHNlYXJjaHwxfHxweXRob24lMjBjJTIwcHJvZ3JhbW1pbmclMjBjb2RlfGVufDB8fHx8MTc3MzkxNzE3NHww&ixlib=rb-4.1.0&q=80&w=1080?w=600&h=400&fit=crop&q=80)
+
+*Photo by [Hitesh Choudhary](https://unsplash.com/@hiteshchoudhary) on [Unsplash](https://unsplash.com)*
